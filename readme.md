@@ -24,8 +24,13 @@ Be sure you already bundled the app before running the tests.
     1. `npm run coverage`
     2. open `./coverage/report/index.html` in a browser
 - The app is tested on:
-    - Mac OSX
+    - Mac OSX with
+        - Safari v9.1.1
+        - Firefox v49.0.1
+        - Chrome v53.0.2785.143
     - Windows 10
+        - Firefox v49.0.1
+        - Chrome v53.0.2785.143
     - Node v6.2.2
 
 Developer dependencies
