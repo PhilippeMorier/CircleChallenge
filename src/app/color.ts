@@ -148,3 +148,10 @@ export enum Color {
     Yellow,
     YellowGreen
 }
+
+export function getRandomColor(): Color {
+    let colorCount: number = Object.keys(Color).length;
+    let randomIndex: number = Math.floor((Math.random() * colorCount - 1));
+
+    return Color[Object.keys(Color)[randomIndex]];
+}
