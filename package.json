@@ -4,7 +4,7 @@
   "description": "Whenever the user clicks on the page, a circle is 'fired' from the clicked position at a random speed and angle.",
   "main": "index.html",
   "scripts": {
-    "lint": "tslint --project './tsconfig.json' --config tslint.json './src/**/*.ts'",
+    "lint": "tslint --project ./tsconfig.json --config tslint.json './src/**/*.ts'",
     "typings": "typings",
     "webpack": "webpack --progress",
     "postinstall": "typings install",
