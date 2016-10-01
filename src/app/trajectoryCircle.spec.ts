@@ -12,7 +12,7 @@ describe('TrajectoryCircle', () => {
         expect(testCircle.centre.y).toBe( 63.8527118466688);
     });
 
-    it('should position the circle so that it touched the ground', () => {
+    it('should position the circle so that it is touching the ground', () => {
         Math.random = () => 1;
         let testCircle: TrajectoryCircle = new TrajectoryCircle(0, 1, 5, Color.Green);
 
