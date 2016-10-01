@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "target": "es5"
+  },
+  "files": [
+    "./typings/index.d.ts"
+  ]
+}
