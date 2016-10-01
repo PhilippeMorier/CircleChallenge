@@ -26,7 +26,8 @@ Be sure you already bundled the app before running the tests.
 - The app is tested on:
     - Mac OSX
     - Windows 10
+    - Node v6.2.2
 
 Developer dependencies
 ----------------------
-To Please see `package.json` for all the used 3rd party dependencies.
+In order to automate some tasks like bundling the app or running the tests some 3rd party code is used. Please see `package.json` for a detailed list of all the used 3rd party dependencies.
