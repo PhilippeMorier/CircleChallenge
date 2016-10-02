@@ -1,5 +1,6 @@
 Circle Challenge
 ================
+Please, ensure that [Node.js](https://nodejs.org/) v6 and [Chrome](https://www.google.com/chrome/) are installed.
 
 Start the app
 --------------------
@@ -29,7 +30,7 @@ Tests
     3. `npm run webdriver-manager start`
     4. `npm run test:e2e`
 
-- The app is tested with Node v6.2.2 on:
+- The app is tested with Node.js v6.2.2 on:
     - Mac OSX with
         - Safari v9.1.1
         - Firefox v49.0.1
