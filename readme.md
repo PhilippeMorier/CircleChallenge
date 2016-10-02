@@ -1,6 +1,6 @@
 Circle Challenge
 ================
-Please, ensure that [Node.js](https://nodejs.org/) v6 and [Chrome](https://www.google.com/chrome/) are installed.
+Please ensure that [Node.js](https://nodejs.org/) v6 and [Chrome](https://www.google.com/chrome/) are installed.
 
 Start the app
 --------------------
@@ -41,4 +41,4 @@ Tests
 
 Developer dependencies
 ----------------------
-In order to automate some tasks like bundling the app or running the tests some 3rd party code is used. Please see `package.json` for a detailed list of all the used 3rd party dependencies.
+In order to automate some of the tasks, such as bundling the app or running the tests, some 3rd party code is used. Please see `package.json` for a detailed list of all the 3rd party dependencies used.
