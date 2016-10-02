@@ -1,6 +1,6 @@
-import { Color } from './color.ts';
-import { Scene } from './scene.ts';
-import { TrajectoryCircle } from './trajectoryCircle.ts';
+import { Color } from './color';
+import { Scene } from './scene';
+import { TrajectoryCircle } from './trajectoryCircle';
 
 describe('Scene', () => {
     it('should update all updatables', () => {

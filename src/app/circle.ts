@@ -1,6 +1,6 @@
-import { Drawable } from './drawable.ts';
-import { Point } from './point.ts';
-import { Color } from './color.ts';
+import { Drawable } from './drawable';
+import { Point } from './point';
+import { Color } from './color';
 
 export class Circle implements Drawable {
     public centre: Point;

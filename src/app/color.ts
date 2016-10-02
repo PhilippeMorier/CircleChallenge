@@ -1,4 +1,4 @@
-import { Random } from './random.ts';
+import { Random } from './random';
 
 export enum Color {
     AliceBlue,

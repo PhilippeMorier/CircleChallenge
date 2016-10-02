@@ -1,5 +1,5 @@
-import {TrajectoryCircle} from './trajectoryCircle.ts';
-import {Color} from './color.ts';
+import {TrajectoryCircle} from './trajectoryCircle';
+import {Color} from './color';
 
 describe('TrajectoryCircle', () => {
     it('should position the circle correctly', () => {

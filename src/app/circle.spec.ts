@@ -1,5 +1,5 @@
-import { Circle } from './circle.ts';
-import { Color } from './color.ts';
+import { Circle } from './circle';
+import { Color } from './color';
 
 describe('Circle', () => {
     it('should create a new instance with all properties set', () => {

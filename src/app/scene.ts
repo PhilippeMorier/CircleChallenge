@@ -1,5 +1,5 @@
-import { Updatable } from './updatable.ts';
-import { Drawable } from './drawable.ts';
+import { Updatable } from './updatable';
+import { Drawable } from './drawable';
 
 export class Scene {
     private updatables: Updatable[] = [];

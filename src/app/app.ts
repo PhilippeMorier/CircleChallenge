@@ -1,7 +1,7 @@
-import { Engine } from './engine.ts';
-import { Scene } from './scene.ts';
-import { getRandomColor } from './color.ts';
-import { TrajectoryCircle } from './trajectoryCircle.ts';
+import { Engine } from './engine';
+import { Scene } from './scene';
+import { getRandomColor } from './color';
+import { TrajectoryCircle } from './trajectoryCircle';
 
 let renderCanvas: HTMLCanvasElement = document.getElementById('renderCanvas') as HTMLCanvasElement;
 let updatableSpan: HTMLSpanElement = document.getElementById('updatableSpan') as HTMLSpanElement;
@@ -17,7 +17,7 @@ renderCanvas.addEventListener('click', (event: MouseEvent) => {
     scene.addUpdatable(trajectoryCircle);
     scene.addDrawable(trajectoryCircle);
 
-    updatableSpan.innerText = scene.updatablesLength.toString();
+    updatableSpan.innerText = '#Circles: ' + scene.updatablesLength.toString();
 });
 
 engine.renderLoop = (passedMillisecondsSinceLastRendering: number) => {

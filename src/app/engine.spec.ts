@@ -1,4 +1,4 @@
-import { Engine } from './engine.ts';
+import { Engine } from './engine';
 
 describe('Engine', () => {
     it('should execute render loop function', () => {

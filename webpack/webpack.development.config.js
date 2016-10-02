@@ -9,12 +9,23 @@ module.exports = {
         ],
         'spec': [
             './src/spec.ts'
+        ],
+        'e2e': [
+            './src/e2e.ts'
         ]
     },
 
     output: {
         path: './dist',
         filename: '[name].' + process.env.NODE_ENV + '.[hash].js'
+    },
+
+    externals: {
+        "protractor": "protractor"
+    },
+
+    resolve: {
+        extensions: ['.ts']
     },
 
     module: {
@@ -38,7 +49,7 @@ module.exports = {
                 environment: process.env.NODE_ENV
             },
             template: './src/index.ejs',
-            excludeChunks: ['spec']
+            excludeChunks: ['spec', 'e2e']
         }),
 
         function ReactOnWebpackRunEventPlugin() {

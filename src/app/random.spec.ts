@@ -1,4 +1,4 @@
-import { Random } from './random.ts';
+import { Random } from './random';
 
 describe('Random', () => {
     it('should generate a float between a given min and max', () => {

@@ -1,8 +1,8 @@
-import { Updatable } from './updatable.ts';
-import { Circle } from './circle.ts';
-import { Point } from './point.ts';
-import { Color } from './color.ts';
-import { Random } from './random.ts';
+import { Updatable } from './updatable';
+import { Circle } from './circle';
+import { Point } from './point';
+import { Color } from './color';
+import { Random } from './random';
 
 export class TrajectoryCircle extends Circle implements Updatable {
     private gravity: number = 9.81;
