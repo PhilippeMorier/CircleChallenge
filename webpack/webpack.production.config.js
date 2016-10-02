@@ -14,6 +14,10 @@ module.exports = {
         filename: '[name].' + process.env.NODE_ENV + '.[hash].js'
     },
 
+    resolve: {
+        extensions: ['.ts']
+    },
+
     module: {
         rules: [
             {
