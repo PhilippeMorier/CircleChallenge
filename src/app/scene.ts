@@ -24,4 +24,8 @@ export class Scene {
     public addDrawable(drawable: Drawable): void {
         this.drawables.push(drawable);
     }
+
+    public get updatablesLength(): number {
+        return this.updatables.length;
+    }
 }

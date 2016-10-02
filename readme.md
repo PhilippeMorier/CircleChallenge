@@ -20,10 +20,17 @@ Be sure you already bundled the app before running the tests.
 - Running the unit tests:
     1. Bundle the app: `npm run bundle:development`
     2. `npm test`
+
 - Generate code coverage report:
     1. `npm run coverage`
     2. open `./coverage/report/index.html` in a browser
-- The app is tested on:
+    
+- Running the E2E tests:
+    1. `npm run webdriver-manager update`
+    2. `npm run webdriver-manager start`
+    3. `npm run test:e2e`
+
+- The app is tested with Node v6.2.2 on:
     - Mac OSX with
         - Safari v9.1.1
         - Firefox v49.0.1
@@ -31,7 +38,6 @@ Be sure you already bundled the app before running the tests.
     - Windows 10
         - Firefox v49.0.1
         - Chrome v53.0.2785.143
-    - Node v6.2.2
 
 Developer dependencies
 ----------------------
