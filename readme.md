@@ -9,16 +9,14 @@ Open a console, type `npm start` and hit enter.
 
 Run each step manually:
 
-1. Install all dependencies: `npm install`
-2. Bundle the app: `npm run bundle:production`
+1. `npm install`
+2. `npm run bundle:production`
 3. Open `./dist/index.html` in a browser
 
 Tests
 -----
-Be sure you already bundled the app before running the tests.
-
 - Running the unit tests:
-    1. Bundle the app: `npm run bundle:development`
+    1. `npm run bundle:development`
     2. `npm test`
 
 - Generate code coverage report:
@@ -26,9 +24,10 @@ Be sure you already bundled the app before running the tests.
     2. open `./coverage/report/index.html` in a browser
     
 - Running the E2E tests:
-    1. `npm run webdriver-manager update`
-    2. `npm run webdriver-manager start`
-    3. `npm run test:e2e`
+    1. `npm run bundle:development`
+    2. `npm run webdriver-manager update`
+    3. `npm run webdriver-manager start`
+    4. `npm run test:e2e`
 
 - The app is tested with Node v6.2.2 on:
     - Mac OSX with
