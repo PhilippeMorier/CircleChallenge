@@ -16,6 +16,10 @@ module.exports = {
         filename: '[name].[hash].js'
     },
 
+    resolve: {
+        extensions: ['.ts']
+    },
+
     module: {
         rules: [
             {
