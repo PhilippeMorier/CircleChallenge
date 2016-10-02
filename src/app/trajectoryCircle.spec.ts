@@ -8,8 +8,8 @@ describe('TrajectoryCircle', () => {
 
         testCircle.update(1000);
 
-        expect(testCircle.centre.x).toBe(-84.79259529209693);
-        expect(testCircle.centre.y).toBe( 63.8527118466688);
+        expect(testCircle.centre.x).toBe(62.83185307179586);
+        expect(testCircle.centre.y).toBe(58.92685307179586);
     });
 
     it('should position the circle so that it is touching the ground', () => {
