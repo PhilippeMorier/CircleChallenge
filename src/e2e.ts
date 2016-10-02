@@ -11,7 +11,7 @@ describe('Circle Challenge', () => {
         let updatableSpan: ElementFinder = element(by.id('updatableSpan'));
         let renderCanvas: ElementFinder = element(by.id('renderCanvas'));
 
-        let circleCount: number = 500;
+        let circleCount: number = 400;
         for (let i: number = 0; i < circleCount; i++) {
             renderCanvas.click();
         }
