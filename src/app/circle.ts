@@ -12,7 +12,7 @@ export class Circle implements Drawable {
     public draw(renderingContext: CanvasRenderingContext2D): void {
         renderingContext.beginPath();
         renderingContext.arc(this.centre.x, renderingContext.canvas.height - this.centre.y, this.radius, 0, 2 * Math.PI, false);
-        renderingContext.fillStyle = Color[this.color];
+        renderingContext.fillStyle = this.color;
         renderingContext.fill();
         renderingContext.lineWidth = 0.5;
         renderingContext.strokeStyle = Color[Color.Gray];

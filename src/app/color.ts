@@ -1,3 +1,5 @@
+import { Random } from './random.ts';
+
 export enum Color {
     AliceBlue,
     AntiqueWhite,
@@ -150,8 +152,8 @@ export enum Color {
 }
 
 export function getRandomColor(): Color {
-    let colorCount: number = Object.keys(Color).length;
-    let randomIndex: number = Math.floor((Math.random() * colorCount - 1));
+    let colorCount: number = Object.keys(Color).length / 2;
+    let randomIndex: number = Random.nextInteger(0, colorCount - 1);
 
     return Color[Object.keys(Color)[randomIndex]];
 }
