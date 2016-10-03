@@ -1,6 +1,6 @@
 {
   "name": "circlechallenge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Whenever the user clicks on the page, a circle is 'fired' from the clicked position at a random speed and angle.",
   "main": "index.html",
   "scripts": {
