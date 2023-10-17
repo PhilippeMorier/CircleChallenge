@@ -16,7 +16,7 @@ module.exports = {
     },
 
     output: {
-        path: './dist',
+        path: process.cwd() + '/dist',
         filename: '[name].' + process.env.NODE_ENV + '.[hash].js'
     },
 

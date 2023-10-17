@@ -12,7 +12,7 @@ module.exports = {
     },
 
     output: {
-        path: './dist',
+        path: process.cwd() + '/dist',
         filename: '[name].[hash].js'
     },
 
